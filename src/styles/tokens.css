@@ -1,0 +1,47 @@
+:root {
+  /* Colors */
+  --color-ink: #0E211D;
+  --color-charcoal: #2B3B37;
+  --color-mist-50: #F6F9F7;
+  --color-sage-100: #E4EFE6;
+  --color-border: #D9E5DF;
+  --color-teal-900: #0B4A3F;
+  --color-teal-700: #146356;
+  --color-teal-500: #1E8570;
+  --color-amber-600: #C97C2B;
+  --color-amber-100: #F5E3CB;
+  --color-danger: #B4453B;
+  --color-white: #FFFFFF;
+
+  /* Typography */
+  --font-display: 'Fraunces', serif;
+  --font-body: 'Public Sans', sans-serif;
+  --font-mono: 'IBM Plex Mono', monospace;
+
+  /* Font Weights */
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  /* Layout Constraints */
+  --max-width-content: 1240px;
+  --header-height-top: 36px;
+  --header-height-main: 72px;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 3px rgba(14, 33, 29, 0.05);
+  --shadow-md: 0 4px 12px rgba(14, 33, 29, 0.08);
+  --shadow-lg: 0 12px 24px rgba(14, 33, 29, 0.12);
+
+  /* Borders & Radius */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  
+  /* Transitions */
+  --transition-speed: 250ms;
+  --transition-timing: cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-fast: all 150ms cubic-bezier(0.4, 0, 0.2, 1);
+}
